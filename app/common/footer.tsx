@@ -17,7 +17,7 @@ export default function Footer(){
                         <p className={`text-sm`}>Get in contact with us today!</p>
                     </div>
                     <div>
-                        <a href="#" className={`btn btn-secondary`}>Contact Us</a>
+                        <Link href="/contact" className={`btn btn-secondary`}>Contact Us</Link>
                     </div>
                 </div>
             </section>

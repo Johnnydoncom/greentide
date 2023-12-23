@@ -13,7 +13,7 @@ export default function Home() {
                 <Image src="/images/home-hero.jpg" alt={`GreenTide Waste`} width={400} height={400} className={`w-40 h-40 lg:w-60 lg:h-60 object-auto rounded-tl-lg rounded-br-xl rounded-bl-3xl rounded-tr-2xl border-[8px] border-white`}/>
 
               <div>
-                  <h1 className="text-6xl lg:text-[6.5rem] font-bold text-white">Your <br/> Waste</h1>
+                  <h1 className="text-5xl lg:text-[6.5rem] font-bold text-white">Your <br/> Waste</h1>
               </div>
             </div>
         </section>
