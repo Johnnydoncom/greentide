@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col ">
 
-        <section className={`bg-white py-24 lg:py-44`}>
+        <section className={`bg-white pb-24 pt-8 lg:py-24`}>
             <div className="container max-w-xl text-center">
                 <h1 className={`font-bold text-6xl lg:text-[6rem] leading-tight text-secondary-900`}>About</h1>
                 <p className={`text-lg text-primary-900`}>Understanding what we do here at Greentide.</p>

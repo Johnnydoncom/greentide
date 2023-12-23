@@ -14,7 +14,7 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col py-14">
 
-        <section className={`bg-white pb-24 pt-14 lg:py-24`}>
+        <section className={`bg-white pb-24 pt-8 lg:py-24`}>
             <div className="container text-center">
                 <h1 className={`font-bold text-6xl lg:text-[6rem] leading-tight text-secondary-900`}>Reach Out</h1>
                 <p className={`text-lg lg:text-2xl text-primary-900`}>Get in touch with us to find out more about Greentide.</p>
