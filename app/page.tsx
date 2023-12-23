@@ -9,7 +9,7 @@ export default function Home() {
           backgroundImage: `url(${heroImage.src})`,
       }}>
           <div className={`absolute inset-0 bg-primary-300 bg-opacity-40`}></div>
-            <div className="container max-w-3xl flex items-center gap-8 lg:gap-14 relative">
+            <div className="container max-w-3xl flex items-center gap-4 lg:gap-14 relative">
                 <Image src="/images/home-hero.jpg" alt={`GreenTide Waste`} width={400} height={400} className={`w-40 h-40 lg:w-60 lg:h-60 object-auto rounded-tl-lg rounded-br-xl rounded-bl-3xl rounded-tr-2xl border-[8px] border-white`}/>
 
               <div>
