@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .container {
+        @apply max-w-3xl sm:max-w-5xl lg:max-w-7xl 2xl:max-w-6xl mx-auto px-3 md:px-4 lg:px-6;
+    }
+
+    .btn {
+        @apply inline-flex items-center justify-center shrink-0 rounded-lg border border-transparent font-medium px-6 py-2.5 focus:outline-none;
+    }
+
+    .btn-primary {
+        @apply text-white bg-primary hover:bg-primary-800 focus:ring-primary-300 focus:outline-none;
+    }
+
+    .btn-secondary {
+        @apply text-white bg-secondary hover:bg-secondary-800 focus:ring-secondary-300 focus:outline-none;
+    }
+}
+
+.fancy-border-radius {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    width: 400px;
+    height: 400px;
+    background: #ad5389;
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    background: linear-gradient(to right, #3c1053, #ad5389);
+}
